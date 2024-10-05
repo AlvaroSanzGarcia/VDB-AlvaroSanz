@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 20.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "ElectricBill", "ElectricBill\ElectricBill.ssmssqlproj", "{1436D134-D3D5-4CF6-A496-319F58F5AF78}"
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "PropertyManager", "PropertyManager\PropertyManager.ssmssqlproj", "{0C8A0A00-E8D4-4EFB-A744-21CA0EBC68C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1436D134-D3D5-4CF6-A496-319F58F5AF78}.Default|Default.ActiveCfg = Default
+		{31B02FD7-68AE-4F7D-B088-3202A6DEB40F}.Default|Default.ActiveCfg = Default
+		{0C8A0A00-E8D4-4EFB-A744-21CA0EBC68C4}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFC5DEEA-AE18-400F-95E7-4510014FB9C9}
+	EndGlobalSection
+EndGlobal

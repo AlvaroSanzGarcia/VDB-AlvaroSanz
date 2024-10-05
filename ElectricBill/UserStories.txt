@@ -1,0 +1,5 @@
+(As a <user type>, I want to <some goal> so that <some reason>)
+*As a consumer I want to be able to see my monthly power consumption so that I can adjust my electric usage
+*As a consumer I want to be able to review my payment history so that I can address any late payments
+*As a consumer I want to be able to see the current tariff I am enrolled in so I can decide if it is the right fit for me
+*As an admin I want to be able to review payment history from any client so I can apply penalties for late payments 

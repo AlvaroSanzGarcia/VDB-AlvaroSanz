@@ -1,0 +1,23 @@
+Customer (Customer_ID, Account_ID, Name, Last_Name, Address_ID, 
+		 Phone_Number, Email, Customer_Since, Meter_Number)
+
+CustomerAccount (Account_ID, Customer_ID, Email, Username, Password)
+
+AdminAccount (Admin_ID, Email, Username, Password)
+
+Address (Address_ID, Street, City, State, ZIP)
+
+PowerUsage (Customer_ID, Previous_Month_kWh, Monthly_Average)
+
+Invoice (Invoice_ID, Customer_ID, Tariff_ID, Service_Rate_ID, Meter_Number,
+		Current_KWh_Use, Reading_Date, Supplier_ID, Monthly_Service_Tax, 
+		City_Tax, Late_Payment_Charge, Total_Cost, Due_Date)
+
+Billing (Invoice_ID, Customer_ID, Name, Last_Name, Address_ID, Payment_Date, Amount_Paid,
+		Payment_Method)
+
+ServiceRate (Service_Rate_ID, Type)
+
+Tariff (Tariff_ID, Tariff_Type, Description, Rate)
+
+Supplier (Supplier_ID, Supplier_Name)
